@@ -1,0 +1,28 @@
+th, td{
+    padding:5px 10px 5px 10px;
+}
+div{
+    display: inline-block;
+    margin-top: 140px;
+    margin-left: 250px;
+    font-family: Arial;
+}
+th{
+    background-color: green;
+}
+tr:nth-child(odd){
+    background-color: rgb(0, 255, 0);
+}
+tr:nth-child(even){
+    background-color: white;
+}
+table{
+    box-shadow: 5px 5px 30px rgb(126, 126, 126);
+    margin-left: 100px;
+}
+h1{
+    background-color: green;
+    padding-inline: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px rgb(0, 46, 0);
+}
